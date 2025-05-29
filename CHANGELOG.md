@@ -1,6 +1,6 @@
 # Changelog
 
-## Fork Changes (grll/claude-code-action@beta)
+## Fork Changes (Fe-wind/claude-code-action@beta)
 
 This is a fork of the official Claude Code Action that adds OAuth authentication support for Claude Max subscribers.
 
@@ -29,7 +29,7 @@ This is a fork of the official Claude Code Action that adds OAuth authentication
    - `CLAUDE_EXPIRES_AT`
 3. Enable OAuth in your workflow:
    ```yaml
-   - uses: grll/claude-code-action@beta
+   - uses: Fe-wind/claude-code-action@beta
      with:
        use_oauth: "true"
        claude_access_token: ${{ secrets.CLAUDE_ACCESS_TOKEN }}
